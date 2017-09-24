@@ -6,6 +6,13 @@ import auth0 from 'auth0-js';
 @Injectable()
 export class AuthService {
     
+    auth0 = new auth0.WebAuth({
+        clientId: '',
+        domain: '',
+        redirectUri: '',
+        responseType: ''
+    });
+
     constructor() { }
 
 }
