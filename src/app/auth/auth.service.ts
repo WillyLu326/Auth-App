@@ -9,8 +9,8 @@ export class AuthService {
     auth0 = new auth0.WebAuth({
         clientId: 'earBAaq-hjrVHGOt6BB2FmiILklKas89',
         domain: 'willy-project.auth0.com',
-        redirectUri: '',
-        responseType: ''
+        redirectUri: 'http://localhost:4200',
+        responseType: 'token id_token'
     });
 
     constructor() { }
