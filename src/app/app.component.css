@@ -1,0 +1,8 @@
+.login {
+    width: 100px; 
+    height: 50px; 
+    cursor: pointer; 
+    background-color: pink; 
+    text-align: center;
+    line-height: 50px;
+}
