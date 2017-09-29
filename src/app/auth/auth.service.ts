@@ -12,7 +12,10 @@ export class AuthService {
         redirectUri: 'http://localhost:4200',
         responseType: 'token id_token'
     });
-//
+
     constructor() { }
 
+    login() {
+        this.auth0.authorize();
+    }    
 }
